@@ -3,54 +3,46 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 2.0,
-        "y": 4.75
+        "x": 7.726296309735477,
+        "y": 6.327116368518452
       },
       "prevControl": null,
       "nextControl": {
-        "x": 3.118033988749895,
-        "y": 4.75
+        "x": 5.750861787437861,
+        "y": 7.314833629667259
       },
       "isLocked": false
     },
     {
       "anchor": {
-        "x": 6.0,
-        "y": 4.75
+        "x": 1.198773540404224,
+        "y": 7.271889400921659
       },
       "prevControl": {
-        "x": 4.585786437626905,
-        "y": 4.75
+        "x": 2.687506803585036,
+        "y": 7.300518886752059
       },
       "nextControl": null,
       "isLocked": false
     }
   ],
-  "rotationTargets": [
-    {
-      "waypointRelativePos": 0.5,
-      "rotationDegrees": 90.0
-    }
-  ],
+  "rotationTargets": [],
   "constraintZones": [],
   "eventMarkers": [
     {
-      "name": "Action 1",
-      "waypointRelativePos": 0.25,
+      "name": "New Event Marker",
+      "waypointRelativePos": 0.45,
       "command": {
         "type": "parallel",
         "data": {
-          "commands": []
-        }
-      }
-    },
-    {
-      "name": "Action 2",
-      "waypointRelativePos": 0.7,
-      "command": {
-        "type": "parallel",
-        "data": {
-          "commands": []
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "Intake Position Cube"
+              }
+            }
+          ]
         }
       }
     }
@@ -66,6 +58,6 @@
     "rotation": 0
   },
   "reversed": false,
-  "folder": "Box Driving",
+  "folder": "On The Fly",
   "previewStartingState": null
 }

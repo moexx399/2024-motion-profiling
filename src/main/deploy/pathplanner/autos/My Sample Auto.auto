@@ -18,7 +18,7 @@
               {
                 "type": "wait",
                 "data": {
-                  "waitTime": 2.0
+                  "waitTime": 1.0
                 }
               },
               {
@@ -33,7 +33,19 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Go Balance"
+            "pathName": "Drive Down"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Drive Back"
           }
         }
       ]

@@ -3,54 +3,46 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 2.0,
-        "y": 4.75
+        "x": 13.323360789582681,
+        "y": 7.372092601333704
       },
       "prevControl": null,
       "nextControl": {
-        "x": 3.118033988749895,
-        "y": 4.75
+        "x": 15.081187752677314,
+        "y": 7.372092601333704
       },
       "isLocked": false
     },
     {
       "anchor": {
-        "x": 6.0,
-        "y": 4.75
+        "x": 15.527831198515393,
+        "y": 7.372092601333704
       },
       "prevControl": {
-        "x": 4.585786437626905,
-        "y": 4.75
+        "x": 14.03882267726378,
+        "y": 7.372092601333704
       },
       "nextControl": null,
       "isLocked": false
     }
   ],
-  "rotationTargets": [
-    {
-      "waypointRelativePos": 0.5,
-      "rotationDegrees": 90.0
-    }
-  ],
+  "rotationTargets": [],
   "constraintZones": [],
   "eventMarkers": [
     {
-      "name": "Action 1",
-      "waypointRelativePos": 0.25,
+      "name": "Set intake for cone",
+      "waypointRelativePos": 0.45,
       "command": {
         "type": "parallel",
         "data": {
-          "commands": []
-        }
-      }
-    },
-    {
-      "name": "Action 2",
-      "waypointRelativePos": 0.7,
-      "command": {
-        "type": "parallel",
-        "data": {
-          "commands": []
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "Intake Position Cone"
+              }
+            }
+          ]
         }
       }
     }
@@ -66,6 +58,6 @@
     "rotation": 0
   },
   "reversed": false,
-  "folder": "Box Driving",
+  "folder": "On The Fly",
   "previewStartingState": null
 }
