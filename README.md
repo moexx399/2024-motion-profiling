@@ -1,3 +1,5 @@
+## WARNING!!! THIS PROJECT WAS MADE WITH 2024 BETA VENDOR LIBRARIES AND MODIFIED 2023 VENDOR LIBRARIES. MAKE SURE YOU USE ALL 2024 VENDOR LIBRARIES WITH WPI VS CODE. 
+
 # Overview
 - Base swerve built with YAGSL
     - lib: https://github.com/BroncBotz3481/YAGSL
@@ -21,4 +23,5 @@ https://github.com/moexx399/2024-motion-profiling/blob/master/src/main/java/frc/
 - Add AutoBuilder.configureHolonomic to init function
     - https://github.com/mjansen4857/pathplanner/wiki/Java-Example:-Build-an-Auto#configuring-autobuilder
 
-## WARNING!!! THIS PROJECT WAS MADE WITH 2024 BETA VENDOR LIBRARIES AND MODIFIED 2023 VENDOR LIBRARIES. MAKE SURE YOU USE ALL 2024 VENDOR LIBRARIES WITH WPI VS CODE. 
+### How to Simulate Robot Code
+The walkthrough can be found in [SIMULATION.md](SIMULATION.md)
